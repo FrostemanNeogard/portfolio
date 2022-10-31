@@ -1,0 +1,63 @@
+:root
+  $shine-strength: 100%
+  $mouse-y: 0deg
+  $mouse-x: 0deg
+
+.projects-section
+  width: 80%
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  gap: 9rem 2.5rem
+  margin: 0 auto
+  position: relative
+
+  h2
+    text-align: center
+    margin: 1rem 0
+
+.project-card-parent
+  cursor: pointer
+  height: 20vmin
+  width: 25vmin
+  margin-bottom: 3rem
+
+  .project-card-content::before
+    content: ""
+    background-image: linear-gradient(210deg, rgba(255, 255, 255, 0.7) 10%, rgba(255, 255, 255, 0.3) 20%, rgba(0, 0, 0, 0) 25%)
+    background-repeat: no-repeat
+    background-size: 1000%
+    background-position-x: 77%
+    height: 100%
+    width: 100%
+    position: absolute
+    border-radius: inherit
+    transition: all 200ms cubic-bezier( 0, 0.91, 0, 0.61 )
+
+  .project-card-content
+    transform: perspective(100px) rotateX(0) rotateY(0)
+    scale: 1.0
+    transition: all 200ms cubic-bezier( 0, 0.3, 0, 0.61 )
+    filter: drop-shadow(0rem 1rem 0.5rem black)
+    border-radius: 0px
+    width: 100%
+    height: 100%
+    pointer-events: none
+    user-select: none
+
+    img
+      object-fit: cover
+      user-select: none
+      border-radius: inherit
+      height: 100%
+      width: 100%
+
+.project-card-parent:hover
+  .project-card-content
+    scale: 1.05
+    transform: perspective(100px) rotateX(var(--mouse-x)) rotateY(var(--mouse-y))
+    filter: drop-shadow(0rem 2rem 1.5rem black)
+
+  .project-card-content::before
+    background-position-x: var(--shine-strength)

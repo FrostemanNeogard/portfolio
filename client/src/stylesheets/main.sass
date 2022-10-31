@@ -1,11 +1,15 @@
 // Variables
 $main-text-color: white
 $hovered-text: #64EAEB
-$background: linear-gradient(to bottom right, rgb(17, 17, 17), rgb(32, 32, 32))
+// $background: linear-gradient(to bottom right, rgb(34, 34, 34), rgb(54, 54, 54))
+$background: black
+
 
 // Stylesheet imports
 @import './TopBar.sass'
-@import './Content.sass'
+@import './PreviousWork.sass'
+@import './Skills.sass'
+@import './Introduction.sass'
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
@@ -25,3 +29,24 @@ html, body
 	height: 100%
 	color: $main-text-color
 	background: $background
+	padding: 6vmin
+
+	a
+		text-decoration: none
+		color: rgb(119, 156, 255)
+		transition: color 100ms ease-in-out
+
+	a:hover
+		color: rgb(81, 107, 179)
+
+	main
+		padding: 1vmin 35vmin
+		z-index: 1
+
+	section.main-section
+		margin: 6vmin 0
+
+	.section-header
+		font-size: 2.5rem
+		text-transform: uppercase
+		letter-spacing: 2px

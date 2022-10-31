@@ -1,0 +1,25 @@
+.introduction-section
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  font-size: 150%
+
+  h1
+    font-size: 4rem
+    text-align: left
+    margin: 0
+
+  h1:hover
+    user-select: none
+
+  span
+    display: block
+    width: fit-content
+    margin: -1.4rem 0
+
+  span.hoverable
+    transition: all 100ms ease-in-out
+
+  span.hoverable:hover
+    // Must be marked as important to override inline styling
+    color: rgb(255, 38, 38) !important
