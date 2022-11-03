@@ -1,4 +1,4 @@
-import './stylesheets/main.sass';
+import './main.sass';
 
 import Layout from './pages/Layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

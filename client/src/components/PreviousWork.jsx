@@ -6,7 +6,7 @@ export default function PreviousWork() {
   useEffect(() => {
     const handleOnMouseMove = e => {
       let { currentTarget: target } = e;
-      let constraint = 180;
+      let constraint = 100;
       let box = target.getBoundingClientRect();
       let calcX = -(e.clientY - box.y - (box.height / 2)) / constraint;
       let calcY = (e.clientX - box.x - (box.width / 2)) / constraint;
