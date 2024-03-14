@@ -1,17 +1,17 @@
 import { ThemeType } from "../types/themeType";
 
 export const theme: ThemeType = {
-  primaryFontFamily: "'Noto Sans Kawi', sans-serif;",
+  primaryFontFamily: "'Montserrat', sans-serif",
   secondaryFontFamily: "'Agbalumo', sans-serif",
 
-  primary: "orange",
+  primary: "#0C0C18",
   primaryText: "white",
-  secondary: "white",
-  secondaryText: "black",
+  secondary: "#EDB64C",
+  secondaryText: "#D1D0E4",
 
   dividerColor: "gray",
 
   breakpoints: {
-    mobile: 'screen and (max-width: 750px)',
-  }
-}
+    mobile: "screen and (max-width: 750px)",
+  },
+};
