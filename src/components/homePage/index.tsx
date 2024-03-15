@@ -77,9 +77,10 @@ export const HomePage = () => {
           as humble Discord bots and rudimentary games soon blossomed into a
           passion for web development, captivating me with its dynamic and
           interactive nature. This journey eventually led me to create projects
-          that are embraced by the vibrant fighting game community, earning{" "}
+          that are embraced by the fighting game community, earning{" "}
           <strong>recognition</strong> and <strong>appreciation</strong> on a
-          wider scale.
+          wider scale, including a <strong>commissioned project</strong> for a
+          sports company.
         </p>
 
         <WorkExperiences />
