@@ -4,8 +4,8 @@ export const Main = styled.main`
   display: flex;
   column-gap: 5vmin;
   height: fit-content;
-  > div {
-    flex: 1;
+  @media ${(props) => props.theme.breakpoints.mobile} {
+    flex-direction: column;
   }
 `;
 
@@ -13,6 +13,9 @@ export const FullHeightContainer = styled.div`
   height: 100vh;
   position: sticky;
   top: 0;
+  @media ${(props) => props.theme.breakpoints.mobile} {
+    position: initial;
+  }
 `;
 
 export const LeftContent = styled.div`
