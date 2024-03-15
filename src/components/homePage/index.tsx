@@ -43,30 +43,6 @@ export const HomePage = () => {
         </p>
         <WorkExperiences />
         <ProjectShowcases />
-
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
-        <p>hejs</p>
       </Styled.RightContent>
     </Styled.Main>
   );
