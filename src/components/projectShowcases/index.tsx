@@ -64,7 +64,7 @@ export const ProjectShowcases = () => {
         live="https://frostemanneogard.github.io/TekkenNotationMaker/"
       >
         <h2>
-          <FaHeart /> 4 000+
+          <FaHeart /> 4 500+ likes
         </h2>
       </Project>
       <Project
