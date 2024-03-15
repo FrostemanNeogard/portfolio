@@ -1,21 +1,45 @@
 import { ProjectShowcases } from "../projectShowcases";
 import { WorkExperiences } from "../workExperiences";
 import * as Styled from "./styled";
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 
 export const HomePage = () => {
   return (
     <Styled.Main>
       <Styled.FullHeightContainer>
         <Styled.LeftContent>
-          <h1>Lima Limmannen</h1>
+          <h1>Liam Frosteman Neogard</h1>
           <h2>Software Engineer</h2>
-          <p>Hejs svejs lingonfejs!!!!!! potatisgrisen.</p>
+          <p>Currently open to work</p>
           <Styled.SocialIcons>
-            <span>X</span>
-            <span>X</span>
-            <span>X</span>
-            <span>X</span>
+            <span>
+              <a href="https://github.com/FrostemanNeogard" target="_blank">
+                <IoLogoGithub />
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/liamfrostemanneogard/"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
+            </span>
+            <span>
+              <a href="resume.pdf" target="_blank">
+                My résumé
+              </a>
+            </span>
           </Styled.SocialIcons>
+          <Styled.ContactBlock>
+            <h2>
+              Want to get in touch? Don't hesitate to email me at:{" "}
+              <a href="mailto:liamfrostemanneogard@gmail.com">
+                liamfrostemanneogard@gmail.com
+              </a>
+            </h2>
+          </Styled.ContactBlock>
         </Styled.LeftContent>
       </Styled.FullHeightContainer>
       <Styled.RightContent>

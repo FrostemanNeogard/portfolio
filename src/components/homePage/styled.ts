@@ -29,19 +29,38 @@ export const LeftContent = styled.div`
   h2 {
     font-size: 1.2rem;
     font-weight: 500;
-    color: ${(props) => props.theme.secondary};
   }
   p {
     font-weight: 400;
-    color: ${(props) => props.theme.secondaryText};
   }
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
-  column-gap: 1rem;
+  column-gap: 2rem;
   margin-top: auto;
   position: relative;
+  font-size: 3rem;
+  a,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+      filter: brightness(80%);
+    }
+  }
+`;
+
+export const ContactBlock = styled.div`
+  a,
+  a:visited {
+    color: cyan;
+    &:hover {
+      cursor: pointer;
+      filter: brightness(80%);
+    }
+  }
 `;
 
 export const RightContent = styled.div`
