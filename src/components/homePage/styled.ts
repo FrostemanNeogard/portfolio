@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
   display: flex;
   column-gap: 5vmin;
-
   height: fit-content;
-
   > div {
     flex: 1;
   }
@@ -23,17 +21,19 @@ export const LeftContent = styled.div`
   padding: 10vh 0;
   height: 80vh;
   row-gap: 1rem;
-
   h1 {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 500;
+    color: ${(props) => props.theme.secondary};
   }
   h2 {
     font-size: 1.2rem;
     font-weight: 500;
+    color: ${(props) => props.theme.secondary};
   }
   p {
     font-weight: 400;
+    color: ${(props) => props.theme.secondaryText};
   }
 `;
 
@@ -46,7 +46,7 @@ export const SocialIcons = styled.div`
 
 export const RightContent = styled.div`
   display: grid;
-  row-gap: 5rem;
+  row-gap: 7rem;
   padding: 10vh 0;
   line-height: 150%;
 `;
