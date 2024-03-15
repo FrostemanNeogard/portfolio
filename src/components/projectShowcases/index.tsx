@@ -42,7 +42,7 @@ export const ProjectShowcases = () => {
     );
   };
   return (
-    <Styled.ProjectsSection>
+    <Styled.ProjectsSection id="projects">
       <Project
         imageSrc={framedataBotImage}
         name="Tekken Framedata bot"

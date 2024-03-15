@@ -12,6 +12,17 @@ export const HomePage = () => {
           <h1>Liam Frosteman Neogard</h1>
           <h2>Software Engineer</h2>
           <p>Currently open to work</p>
+          <ul>
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#work-experience">Work Experience</a>
+            </li>
+            <li>
+              <a href="#projects">My Projects</a>
+            </li>
+          </ul>
           <Styled.SocialIcons>
             <span>
               <a href="https://github.com/FrostemanNeogard" target="_blank">
@@ -43,7 +54,7 @@ export const HomePage = () => {
         </Styled.LeftContent>
       </Styled.FullHeightContainer>
       <Styled.RightContent>
-        <p>
+        <p id="introduction">
           From a young age, I've been drawn to the captivating world of
           technology, and programming quickly became my passion.{" "}
           <strong>At just 13</strong>, I embarked on my first programming

@@ -3,7 +3,7 @@ import { MdOpenInNew } from "react-icons/md";
 
 export const WorkExperiences = () => {
   return (
-    <Styled.WorkSection>
+    <Styled.WorkSection id="work-experience">
       <Styled.WorkArticle>
         <h3>2023 - Present</h3>
         <h2>
