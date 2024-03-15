@@ -6,11 +6,15 @@ export const WorkExperiences = () => {
     <Styled.WorkSection>
       <Styled.WorkArticle>
         <h3>2023 - Present</h3>
-        <h2>Fullstack Software Engineer • Duelbits</h2>
+        <h2>
+          <strong>Fullstack Software Engineer</strong> • Duelbits
+        </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-          doloremque veritatis omnis fuga nihil qui perspiciatis nemo maxime
-          consequatur vel! Praesentium reiciendis illo provident perspiciatis?
+          Develop and maintain frontend with React, Typescript, and Redux.
+          Optimize backend with NestJS and SQL for scalability. Drive admin
+          panel expansion using Angular, deploy efficiently with Docker and
+          GitHub Actions. Ensure code quality through extensive reviews and Jest
+          tests. Utilize Jira for streamlined project management.
         </p>
         <div>
           <span>TypeScript</span>
@@ -21,11 +25,14 @@ export const WorkExperiences = () => {
       </Styled.WorkArticle>
       <Styled.WorkArticle>
         <h3>2022 - 2023</h3>
-        <h2>Web Developer • CloudBackend</h2>
+        <h2>
+          <strong>Web Developer</strong> • CloudBackend
+        </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-          doloremque veritatis omnis fuga nihil qui perspiciatis nemo maxime
-          consequatur vel! Praesentium reiciendis illo provident perspiciatis?
+          Partake in frontend and backend development with in-house JavaScript
+          framework. Practice Agile methodologies for collaboration. Develop and
+          maintain RESTful APIs, track bugs with Jira. Employ Git for version
+          control, ensuring effective collaboration.
         </p>
         <div>
           <span>JavaScript</span>
