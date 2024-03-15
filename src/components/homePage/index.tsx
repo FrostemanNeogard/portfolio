@@ -41,7 +41,7 @@ export const HomePage = () => {
               </a>
             </span>
             <span>
-              <a href="src/assets/resume.pdf" target="_blank">
+              <a href="resume.pdf" target="_blank">
                 My résumé
               </a>
             </span>
