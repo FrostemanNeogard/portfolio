@@ -73,6 +73,7 @@ export const LeftContent = styled.div`
 
 export const SocialIcons = styled.div`
   display: flex;
+  flex-wrap: wrap;
   column-gap: 2rem;
   margin-top: auto;
   position: relative;
@@ -92,6 +93,10 @@ export const ContactBlock = styled.div`
   a,
   a:visited {
     color: cyan;
+    @media ${(props) => props.theme.breakpoints.mobile} {
+      word-break: break-all;
+      font-size: 80%;
+    }
     &:hover {
       cursor: pointer;
       filter: brightness(80%);

@@ -42,13 +42,12 @@ export const HomePage = () => {
             </span>
             <span>
               <a href="resume.pdf" target="_blank">
-                My résumé
+                Résumé
               </a>
             </span>
           </Styled.SocialIcons>
           <Styled.ContactBlock>
             <h2>
-              Want to get in touch? Don't hesitate to email me at:{" "}
               <a href="mailto:liamfrostemanneogard@gmail.com">
                 liamfrostemanneogard@gmail.com
               </a>

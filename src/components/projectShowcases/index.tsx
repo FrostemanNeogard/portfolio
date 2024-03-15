@@ -20,25 +20,27 @@ export const ProjectShowcases = () => {
     const { imageSrc, name, description, children, github, live } = props;
 
     return (
-      <Styled.Project>
-        <img src={imageSrc} alt={name} />
-        <h1>{name}</h1>
-        <p>{description}</p>
-        {children}
+      <Styled.Link href={live ? live : github ? github : ""} target="_blank">
+        <Styled.Project>
+          <img src={imageSrc} alt={name} />
+          <h1>{name}</h1>
+          <p>{description}</p>
+          {children}
 
-        <div>
-          {github && (
-            <a href={github} target="_blank">
-              <IoLogoGithub />
-            </a>
-          )}
-          {live && (
-            <a href={live} target="_blank">
-              <FaGlobe />
-            </a>
-          )}
-        </div>
-      </Styled.Project>
+          <div>
+            {github && (
+              <a href={github} target="_blank">
+                <IoLogoGithub />
+              </a>
+            )}
+            {live && (
+              <a href={live} target="_blank">
+                <FaGlobe />
+              </a>
+            )}
+          </div>
+        </Styled.Project>
+      </Styled.Link>
     );
   };
   return (

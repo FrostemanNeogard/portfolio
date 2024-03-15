@@ -36,7 +36,8 @@ export const WorkArticle = styled.article`
   }
   div {
     display: flex;
-    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     font-size: 0.9rem;
     span {
       padding: 5px 15px;
