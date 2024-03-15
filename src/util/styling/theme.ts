@@ -15,6 +15,6 @@ export const theme: ThemeType = {
   dividerColor: "gray",
 
   breakpoints: {
-    mobile: "screen and (max-width: 750px)",
+    mobile: "screen and (max-width: 1100px)",
   },
 };
