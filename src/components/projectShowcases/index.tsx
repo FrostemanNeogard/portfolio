@@ -2,6 +2,7 @@ import * as Styled from "./styled";
 import framedataBotImage from "../../assets/images/projects/framedataBot.png";
 import notationMakerImage from "../../assets/images/projects/notationMaker.png";
 import tournamentHeader from "../../assets/images/projects/tournamentHeader.png";
+import dynastyLeagueBot from "../../assets/images/projects/dynastyLeagueBot.png";
 import { FaHeart } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
@@ -67,12 +68,18 @@ export const ProjectShowcases = () => {
         </h2>
       </Project>
       <Project
+        imageSrc={dynastyLeagueBot}
+        name="Dynasty League bot"
+        description={`Commissioned Discord bot for a sports company, tasked with managing group chats for their Dynasty League.`}
+        github="https://github.com/FrostemanNeogard/Dynasty-League-Bot"
+      />
+      <Project
         imageSrc={tournamentHeader}
         name="Tournament Header"
         description={`Tournament organization tool used to easily update on-stream visuals remotely from any device`}
         github="https://github.com/FrostemanNeogard/TournamentHeader"
         live="https://frostemanneogard.github.io/TournamentHeader/"
-      ></Project>
+      />
     </Styled.ProjectsSection>
   );
 };
