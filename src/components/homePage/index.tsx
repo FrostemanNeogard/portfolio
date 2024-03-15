@@ -44,27 +44,31 @@ export const HomePage = () => {
       </Styled.FullHeightContainer>
       <Styled.RightContent>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id natus
-          suscipit soluta vitae ducimus, impedit odio, dignissimos officia
-          veniam corporis placeat fugit veritatis facilis accusantium, quas
-          nostrum rerum? Placeat quo fugit corporis cum est voluptates voluptas
-          non, minus ipsa praesentium, alias exercitationem. Nesciunt
-          voluptatibus minima, quo dicta nam perferendis ratione.
+          From a young age, I've been drawn to the captivating world of
+          technology, and programming quickly became my passion.{" "}
+          <strong>At just 13</strong>, I embarked on my first programming
+          journey through an introductory Python bootcamp, igniting a lifelong
+          curiosity for coding.
           <br />
           <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nihil quo eius necessitatibus mollitia asperiores magni rem porro
-          expedita eligendi. Libero distinctio quas ullam assumenda quibusdam
-          nam eos reprehenderit eum dolorem sapiente, sit corrupti commodi, id
-          magni iusto odio eius, nulla ipsa nemo saepe consequatur.
+          Over the years, my programming journey evolved organically,
+          culminating in 2018 when I delved into the realms of{" "}
+          <strong>game graphics</strong> and <strong>development</strong>. My{" "}
+          <strong>eagerness to learn</strong>, coupled with prior experience,
+          propelled my growth exponentially.
           <br />
           <br />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
-            dolorum corrupti pariatur dignissimos iste accusantium laboriosam
-            temporibus, ea maxime labore.
-          </p>
+          During my academic pursuits, I seized every opportunity to expand my{" "}
+          <strong>varied skill set</strong>, often venturing beyond the
+          curriculum to undertake <strong>personal projects</strong>. What began
+          as humble Discord bots and rudimentary games soon blossomed into a
+          passion for web development, captivating me with its dynamic and
+          interactive nature. This journey eventually led me to create projects
+          that are embraced by the vibrant fighting game community, earning{" "}
+          <strong>recognition</strong> and <strong>appreciation</strong> on a
+          wider scale.
         </p>
+
         <WorkExperiences />
         <ProjectShowcases />
       </Styled.RightContent>

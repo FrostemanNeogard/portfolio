@@ -68,4 +68,7 @@ export const RightContent = styled.div`
   row-gap: 7rem;
   padding: 10vh 0;
   line-height: 150%;
+  strong {
+    font-weight: 700;
+  }
 `;
