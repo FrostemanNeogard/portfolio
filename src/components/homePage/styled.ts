@@ -33,6 +33,39 @@ export const LeftContent = styled.div`
   p {
     font-weight: 400;
   }
+  ul {
+    padding: 1rem 0;
+    a,
+    a:visited {
+      color: white;
+      text-decoration: none;
+    }
+    span {
+      background-color: white;
+      border-bottom: 1px solid white;
+      width: 4rem;
+      height: 1px;
+      align-self: center;
+    }
+    li {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem 0;
+      transition: all 200ms ease;
+    }
+    &:has(li:hover) {
+      li {
+        filter: brightness(80%);
+      }
+      li:hover {
+        filter: brightness(100%);
+        cursor: pointer;
+        span {
+          width: 6rem;
+        }
+      }
+    }
+  }
 `;
 
 export const SocialIcons = styled.div`

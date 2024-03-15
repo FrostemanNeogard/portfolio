@@ -14,12 +14,15 @@ export const HomePage = () => {
           <p>Currently open to work</p>
           <ul>
             <li>
+              <span></span>
               <a href="#introduction">Introduction</a>
             </li>
             <li>
+              <span></span>
               <a href="#work-experience">Work Experience</a>
             </li>
             <li>
+              <span></span>
               <a href="#projects">My Projects</a>
             </li>
           </ul>
