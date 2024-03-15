@@ -41,7 +41,7 @@ export const WorkExperiences = () => {
         </div>
       </Styled.WorkArticle>
       <Styled.ResumeButton>
-        <a href="resume.pdf" target="_blank">
+        <a href="src/assets/resume.pdf" target="_blank">
           View full résumé <MdOpenInNew />
         </a>
       </Styled.ResumeButton>
