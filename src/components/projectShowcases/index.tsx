@@ -3,7 +3,7 @@ import framedataBotImage from "../../assets/images/projects/framedataBot.png";
 import notationMakerImage from "../../assets/images/projects/notationMaker.png";
 import tournamentHeader from "../../assets/images/projects/tournamentHeader.png";
 import dynastyLeagueBot from "../../assets/images/projects/dynastyLeagueBot.png";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaMoneyBill } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
 import { FaGlobe } from "react-icons/fa";
@@ -72,7 +72,11 @@ export const ProjectShowcases = () => {
         name="Dynasty League bot"
         description={`Commissioned Discord bot for a sports company, tasked with managing group chats for their Dynasty League.`}
         github="https://github.com/FrostemanNeogard/Dynasty-League-Bot"
-      />
+      >
+        <h2>
+          <FaMoneyBill /> Paid commission
+        </h2>
+      </Project>
       <Project
         imageSrc={tournamentHeader}
         name="Tournament Header"
