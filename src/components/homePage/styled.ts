@@ -15,6 +15,7 @@ export const FullHeightContainer = styled.div`
   top: 0;
   @media ${(props) => props.theme.breakpoints.mobile} {
     position: initial;
+    height: auto;
   }
 `;
 
@@ -24,6 +25,10 @@ export const LeftContent = styled.div`
   padding: 10vh 0;
   height: 80vh;
   row-gap: 1rem;
+  @media ${(props) => props.theme.breakpoints.mobile} {
+    position: initial;
+    height: auto;
+  }
   h1 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -37,6 +42,9 @@ export const LeftContent = styled.div`
     font-weight: 400;
   }
   ul {
+    @media ${(props) => props.theme.breakpoints.mobile} {
+      display: none;
+    }
     padding: 1rem 0;
     a,
     a:visited {
