@@ -5,16 +5,36 @@ export const WorkExperiences = () => {
   return (
     <Styled.WorkSection id="work-experience">
       <Styled.WorkArticle>
-        <h3>2023 - Present</h3>
+        <h3>2024 - Present</h3>
+        <h2>
+          <strong>Fullstack Software Engineer</strong> • School of Applied
+          Technology
+        </h2>
+        <p>
+          Completed an intensive 13 week bootcamp, after which I got sent to
+          clients to work as a fullstack developer.
+        </p>
+        <div>
+          <span>Java</span>
+          <span>Spring Framework</span>
+          <span>React</span>
+          <span>Docker</span>
+          <span>PostgreSQL</span>
+          <span>AWS</span>
+          <span>CI/CD</span>
+        </div>
+      </Styled.WorkArticle>
+      <Styled.WorkArticle>
+        <h3>2023 - 2024</h3>
         <h2>
           <strong>Fullstack Software Engineer</strong> • Duelbits
         </h2>
         <p>
-          Develop and maintain frontend with React, Typescript, and Redux.
-          Optimize backend with NestJS and SQL for scalability. Drive admin
-          panel expansion using Angular, deploy efficiently with Docker and
-          GitHub Actions. Ensure code quality through extensive reviews and Jest
-          tests. Utilize Jira for streamlined project management.
+          Developed and maintained frontend with React, Typescript, and Redux.
+          Optimized backend with NestJS and SQL for scalability. Drove admin
+          panel expansion using Angular, deployed efficiently with Docker and
+          GitHub Actions. Ensured code quality through extensive reviews and
+          Jest tests. Utilized Jira for streamlined project management.
         </p>
         <div>
           <span>TypeScript</span>
