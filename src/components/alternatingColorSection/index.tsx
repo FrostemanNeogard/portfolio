@@ -1,11 +1,13 @@
-import * as Styled from './styled'
+import * as Styled from "./styled";
 
-export const AlternatingColorSection = (props: {children: React.ReactElement[]}) => {
+export const AlternatingColorSection = (props: {
+  children: React.ReactElement[];
+}) => {
   return (
     <Styled.AlternatingColorSection>
       {props.children}
     </Styled.AlternatingColorSection>
-  )
-}
+  );
+};
 
-export default AlternatingColorSection
+export default AlternatingColorSection;

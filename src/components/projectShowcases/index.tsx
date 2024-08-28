@@ -51,6 +51,7 @@ export const ProjectShowcases = () => {
         name="Tekken Framedata bot"
         description={`Discord bot used in hundreds of servers which allows users to look up information about any given attack in the Tekken series of games.`}
         github="https://github.com/FrostemanNeogard/TekkenFramedataBot"
+        live="https://discord.com/application-directory/1184848382720737310"
       >
         <h2>
           <IoPerson /> 10 000+ users

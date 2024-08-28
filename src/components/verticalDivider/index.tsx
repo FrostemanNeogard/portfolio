@@ -1,9 +1,7 @@
-import * as Styled from './styled'
+import * as Styled from "./styled";
 
 const VerticalDivider = () => {
-  return (
-    <Styled.VerticalDivider />
-  )
-}
+  return <Styled.VerticalDivider />;
+};
 
-export default VerticalDivider
+export default VerticalDivider;
