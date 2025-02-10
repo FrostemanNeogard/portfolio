@@ -7,12 +7,37 @@ export const WorkExperiences = () => {
       <Styled.WorkArticle>
         <h3>2024 - Present</h3>
         <h2>
+          <strong>DevOps Engineer</strong> • Scania
+        </h2>
+        <p>
+          Design and implement CI/CD pipelines on GitLab to automate development
+          and deployment processes, improving efficiency and reliability. Build
+          and maintain AWS infrastructure, leveraging services like EC2, RDS,
+          and Route 53 to support scalable applications. Develop and optimize
+          Docker images for containerized deployments, ensuring consistency
+          across environments. Work closely with development teams to enhance
+          automation, monitoring, and infrastructure as code practices.
+        </p>
+        <div>
+          <span>Docker</span>
+          <span>PostgreSQL</span>
+          <span>AWS</span>
+          <span>RDS</span>
+          <span>EC2</span>
+          <span>CI/CD</span>
+          <span>GitLab</span>
+        </div>
+      </Styled.WorkArticle>
+      <Styled.WorkArticle>
+        <h3>2024 - Present</h3>
+        <h2>
           <strong>Fullstack Software Engineer</strong> • School of Applied
           Technology
         </h2>
         <p>
-          Completed an intensive 13 week bootcamp, after which I got sent to
-          clients to work as a fullstack developer.
+          Completed an intensive 13 week bootcamp, after which I got hired as a
+          consultant where I've completed one short assignment at a small
+          company and am currently on assignment at Scania as a DevOps engineer.
         </p>
         <div>
           <span>Java</span>

@@ -10,8 +10,7 @@ export const HomePage = () => {
       <Styled.FullHeightContainer>
         <Styled.LeftContent>
           <h1>Liam Frosteman Neogard</h1>
-          <h2>Software Engineer</h2>
-          <p>Currently open to work</p>
+          <h2>Fullstack Engineer</h2>
           <ul>
             <li>
               <span></span>
@@ -65,8 +64,8 @@ export const HomePage = () => {
           <br />
           <br />
           Over the years, my programming journey evolved organically,
-          culminating in 2018 when I delved into the realms of{" "}
-          <strong>game graphics</strong> and <strong>development</strong>. My{" "}
+          culminating in 2018 when I dove into the realms of game-{" "}
+          <strong>graphics</strong> and <strong>development</strong>. My{" "}
           <strong>eagerness to learn</strong>, coupled with prior experience,
           propelled my growth exponentially.
           <br />
