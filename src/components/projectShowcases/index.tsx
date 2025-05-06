@@ -1,8 +1,8 @@
 import * as Styled from "./styled";
 import framedataBotImage from "../../assets/images/projects/framedataBot.png";
 import notationMakerImage from "../../assets/images/projects/notationMaker.png";
-import tournamentHeader from "../../assets/images/projects/tournamentHeader.png";
 import dynastyLeagueBot from "../../assets/images/projects/dynastyLeagueBot.png";
+import klimraImage from "../../assets/images/projects/klimra.png";
 import { FaHeart, FaMoneyBill } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io";
@@ -47,6 +47,12 @@ export const ProjectShowcases = () => {
   return (
     <Styled.ProjectsSection id="projects">
       <Project
+        imageSrc={klimraImage}
+        name="Klimra Website"
+        description="Frontend used for Klimra's website made in merely a few weeks in collaboration with Klimra's designers and CEOs."
+        live="https://klimra.com/"
+      ></Project>
+      <Project
         imageSrc={framedataBotImage}
         name="Tekken Framedata bot"
         description={`Discord bot used in hundreds of servers which allows users to look up information about any given attack in the Tekken series of games.`}
@@ -78,13 +84,6 @@ export const ProjectShowcases = () => {
           <FaMoneyBill /> Paid commission
         </h2>
       </Project>
-      <Project
-        imageSrc={tournamentHeader}
-        name="Tournament Header"
-        description={`Tournament organization tool used to easily update on-stream visuals remotely from any device`}
-        github="https://github.com/FrostemanNeogard/TournamentHeader"
-        live="https://frostemanneogard.github.io/TournamentHeader/"
-      />
     </Styled.ProjectsSection>
   );
 };
