@@ -56,32 +56,23 @@ export const HomePage = () => {
       </Styled.FullHeightContainer>
       <Styled.RightContent>
         <p id="introduction">
-          From a young age, I've been drawn to the captivating world of
-          technology, and programming quickly became my passion.{" "}
-          <strong>At just 13</strong>, I embarked on my first programming
-          journey through an introductory Python bootcamp, igniting a lifelong
-          curiosity for coding.
-          <br />
-          <br />
-          Over the years, my programming journey evolved organically,
-          culminating in 2018 when I dove into the realms of game-{" "}
-          <strong>graphics</strong> and <strong>development</strong>. My{" "}
-          <strong>eagerness to learn</strong>, coupled with prior experience,
-          propelled my growth exponentially.
+          From a young age, I've been drawn to technology, and programming
+          quickly became my passion. <strong>At just 13</strong>, I went on my
+          first programming bootcamp where I learned to draw shapes with Python.
           <br />
           <br />
           During my academic pursuits, I seized every opportunity to expand my{" "}
           <strong>varied skill set</strong>, often venturing beyond the
           curriculum to undertake <strong>personal projects</strong>. What began
-          as humble Discord bots and rudimentary games soon blossomed into a
-          passion for web development, captivating me with its dynamic and
-          interactive nature. This journey eventually led me to create projects
-          that are embraced by the fighting game community, earning{" "}
+          as humble Discord bots and simple games soon blossomed into a passion
+          for <strong>web development</strong>, captivating me with its
+          interactive nature. This journey eventually led me to software
+          engineering as a proession along with creating projects that are
+          hugely embraced by the fighting game community, earning{" "}
           <strong>recognition</strong> and <strong>appreciation</strong> on a
-          wider scale, including a <strong>commissioned project</strong> for a
-          sports company.
+          wider scale. Among my work also includes a{" "}
+          <strong>commissioned project</strong> for a sports company.
         </p>
-
         <WorkExperiences />
         <ProjectShowcases />
       </Styled.RightContent>
