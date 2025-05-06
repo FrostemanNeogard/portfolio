@@ -17,7 +17,17 @@ export const WorkExperiences = () => {
           Docker images for containerized deployments, ensuring consistency
           across environments. Work closely with development teams to enhance
           automation, monitoring, and infrastructure as code practices."
-        tags={["Docker", "PostgreSQL", "AWS", "RDS", "EC2", "CI/CD", "GitLab"]}
+        tags={[
+          "AWS",
+          "RDS",
+          "CDK",
+          "Docker",
+          "PostgreSQL",
+          "Python",
+          "CI/CD",
+          "GitLab",
+          "CloudFormation",
+        ]}
       />
       <WorkArticle
         startDate="2024"
