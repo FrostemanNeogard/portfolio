@@ -6,16 +6,32 @@ export const WorkExperiences = () => {
   return (
     <Styled.WorkSection id="work-experience">
       <WorkArticle
-        startDate="2024"
+        startDate="2025"
         endDate="present"
+        roleName="Backend Developer"
+        companyName="Google (via MultiMind)"
+        jobDescription="Working on migrating the public Fitbit API using in-house tools and frameworks. Writing tests focusing on 100% code coverage."
+        tags={["Java", "Spring Boot", "JUnit"]}
+      />
+      <WorkArticle
+        startDate="2025"
+        endDate="present"
+        roleName="Software Engineer Consultant"
+        companyName="MultiMind"
+        jobDescription="Currently on assignment for Google as a backend developer."
+        tags={["Java", "Spring Boot", "JUnit"]}
+      />
+      <WorkArticle
+        startDate="2024"
+        endDate="2025"
         roleName="DevOps Engineer"
-        companyName="Scania"
-        jobDescription="Design and implement CI/CD pipelines on GitLab to automate development
-          and deployment processes, improving efficiency and reliability. Build
-          and maintain AWS infrastructure, leveraging services like EC2, RDS,
-          and Route 53 to support scalable applications. Develop and optimize
+        companyName="Scania (via SALT)"
+        jobDescription="Designed and implemented CI/CD pipelines on GitLab to automate development
+          and deployment processes, improving efficiency and reliability. Built
+          and maintained AWS infrastructure, leveraging services like EC2, RDS,
+          and Route 53 to support scalable applications. Developed and optimized
           Docker images for containerized deployments, ensuring consistency
-          across environments. Work closely with development teams to enhance
+          across environments. Worked closely with development teams to enhance
           automation, monitoring, and infrastructure as code practices."
         tags={[
           "AWS",
@@ -33,7 +49,7 @@ export const WorkExperiences = () => {
         startDate="2024"
         endDate="2024"
         roleName="Lead Fullstack Engineer"
-        companyName="Klimra"
+        companyName="Klimra (via SALT)"
         jobDescription="Led the end-to-end development of Klimra's public-facing website and
           initial backend infrastructure during a one-month contract via SALT. Built a modern,
           responsive frontend using React and Tailwind, ensuring a performant and accessible
@@ -53,9 +69,9 @@ export const WorkExperiences = () => {
       />
       <WorkArticle
         startDate="2024"
-        endDate="Present"
+        endDate="2025"
         roleName="Fullstack Software Engineer Consultant"
-        companyName="School of Applied Technology"
+        companyName="SALT - School of Applied Technology"
         jobDescription="Completed an intensive 13 week bootcamp, after which I got hired as a
           consultant where I've completed one short assignment at a small
           company and am currently on assignment at Scania as a DevOps engineer."
