@@ -20,8 +20,8 @@ export const WorkArticle = styled.article`
       padding: 5px 15px;
       border-radius: 9999px;
       color: lighblue;
-      background-color: ${(props) => props.theme.secondaryDarkened};
-      color: ${(props) => props.theme.secondary};
+      background-color: ${({ theme }) => theme.secondaryDarkened};
+      color: ${({ theme }) => theme.secondary};
     }
   }
 `;

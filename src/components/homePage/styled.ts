@@ -4,7 +4,7 @@ export const Main = styled.main`
   display: flex;
   column-gap: 5vmin;
   height: fit-content;
-  @media ${(props) => props.theme.breakpoints.mobile} {
+  @media ${({ theme }) => theme.breakpoints.mobile} {
     flex-direction: column;
   }
 `;
@@ -13,7 +13,7 @@ export const FullHeightContainer = styled.div`
   height: 100vh;
   position: sticky;
   top: 0;
-  @media ${(props) => props.theme.breakpoints.mobile} {
+  @media ${({ theme }) => theme.breakpoints.mobile} {
     position: initial;
     height: auto;
   }
@@ -25,14 +25,14 @@ export const LeftContent = styled.div`
   padding: 10vh 0;
   height: 80vh;
   row-gap: 1rem;
-  @media ${(props) => props.theme.breakpoints.mobile} {
+  @media ${({ theme }) => theme.breakpoints.mobile} {
     position: initial;
     height: auto;
   }
   h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    color: ${(props) => props.theme.secondary};
+    color: ${({ theme }) => theme.secondary};
   }
   h2 {
     font-size: 1.2rem;
@@ -42,7 +42,7 @@ export const LeftContent = styled.div`
     font-weight: 400;
   }
   ul {
-    @media ${(props) => props.theme.breakpoints.mobile} {
+    @media ${({ theme }) => theme.breakpoints.mobile} {
       display: none;
     }
     padding: 1rem 0;
@@ -101,7 +101,7 @@ export const ContactBlock = styled.div`
   a,
   a:visited {
     color: cyan;
-    @media ${(props) => props.theme.breakpoints.mobile} {
+    @media ${({ theme }) => theme.breakpoints.mobile} {
       word-break: break-all;
       font-size: 80%;
     }
