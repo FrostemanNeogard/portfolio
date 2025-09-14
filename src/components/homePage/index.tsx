@@ -47,8 +47,8 @@ export const HomePage = () => {
           </Styled.SocialIcons>
           <Styled.ContactBlock>
             <h2>
-              <a href="mailto:liamfrostemanneogard@gmail.com">
-                liamfrostemanneogard@gmail.com
+              <a href="mailto:liamfrostegard@gmail.com">
+                liamfrostegard@gmail.com
               </a>
             </h2>
           </Styled.ContactBlock>

@@ -33,6 +33,7 @@ export const LeftContent = styled.div`
     font-size: 2.5rem;
     font-weight: 500;
     color: ${({ theme }) => theme.secondary};
+    white-space: nowrap;
   }
   h2 {
     font-size: 1.2rem;
