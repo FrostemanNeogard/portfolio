@@ -6,7 +6,7 @@ export const WorkExperiences = () => {
   return (
     <Styled.WorkSection id="work-experience">
       <WorkArticle
-        startDate="2025"
+        startDate="2026"
         endDate="Present"
         roleName="Software Engineer"
         companyName="Leonh"
