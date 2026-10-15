@@ -7,18 +7,26 @@ export const WorkExperiences = () => {
     <Styled.WorkSection id="work-experience">
       <WorkArticle
         startDate="2025"
-        endDate="present"
+        endDate="Present"
+        roleName="Software Engineer"
+        companyName="Leonh"
+        jobDescription="Working on the Leonh Infinity platform"
+        tags={["TypeScript", "Supabase", "Claude Code"]}
+      />
+      <WorkArticle
+        startDate="2025"
+        endDate="2026"
         roleName="Backend Developer"
         companyName="Google (via MultiMind)"
-        jobDescription="Working on migrating the public Fitbit API using in-house tools and frameworks. Writing tests focusing on 100% code coverage."
+        jobDescription="Worked on migrating the public Fitbit API using in-house tools and frameworks. Wrote tests focusing on 100% code coverage."
         tags={["Java", "Spring Boot", "JUnit"]}
       />
       <WorkArticle
         startDate="2025"
-        endDate="present"
+        endDate="2026"
         roleName="Software Engineer Consultant"
         companyName="MultiMind"
-        jobDescription="Currently on assignment for Google as a backend developer."
+        jobDescription="Sent out on assignment for Google as a backend developer."
         tags={["Java", "Spring Boot", "JUnit"]}
       />
       <WorkArticle
